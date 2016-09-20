@@ -1,0 +1,29 @@
+{
+  "name": "psuedofu",
+  "version": "1.0.0",
+  "description": "Create and edit CSS Pseudo-elements in Javascript with ease",
+  "main": "psuedofu.min.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tevko/PsuedoFu.git"
+  },
+  "keywords": [
+    "javascript",
+    "psuedo",
+    "element",
+    "css"
+  ],
+  "author": "Tim Evko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tevko/PsuedoFu/issues"
+  },
+  "homepage": "https://github.com/tevko/PsuedoFu#readme",
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "gulp": "^3.9.1"
+  }
+}
