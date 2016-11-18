@@ -4,7 +4,7 @@
   "description": "Create and edit CSS Pseudo-elements in Javascript with ease",
   "main": "psuedofu.min.js",
   "scripts": {
-    "test": "npm test"
+    "test": "casperjs --xunit=casper-result.xml --fail-fast --engine=slimerjs test test/casper"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,8 @@
   "homepage": "https://github.com/tevko/PsuedoFu#readme",
   "devDependencies": {
     "browserify": "^13.1.0",
-    "gulp": "^3.9.1"
+    "casperjs": "^1.1.3",
+    "gulp": "^3.9.1",
+    "slimerjs": "^0.906.2"
   }
 }

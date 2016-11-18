@@ -1,0 +1,19 @@
+machine:
+  node:
+    version: 6.0.0
+  environment:
+    CXX: g++-4.8
+    NODE_ENV: circle
+    SLIMERJSLAUNCHER: $(which firefox)
+    PATH: $PATH:$HOME/slimerjs
+dependencies:
+  pre:
+      - npm install
+  post:
+      - sleep 3
+test:
+  override:
+    - npm test
+    - sleep 3
+    - bash exitStatus.sh
+    - sleep 3
